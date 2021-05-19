@@ -1,0 +1,15 @@
+#box
+{
+    width: 500px;
+    height: auto;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 15px;
+    margin: 25px;
+    background-color: steelblue;
+    color: white;
+    line-height: 1.5em;
+    border: 3px solid orange;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #907070;
+}

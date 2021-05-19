@@ -1,0 +1,34 @@
+/* div
+{
+    width: 500px;
+    height: auto;
+} */
+
+/* p
+{
+    color: gray;
+    font-style: italic;
+} */
+
+#box
+{
+    width: 500px;
+    height: auto;
+}
+
+.box-text
+{
+    color: gray;
+    font-style: italic;
+}
+
+div#box > .simple-text
+{
+    color: green;
+}
+
+div#box > p > span
+{
+    color: black;
+    font-weight: bold;
+}
