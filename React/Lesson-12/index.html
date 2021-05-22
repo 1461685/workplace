@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <style>
+        #mybox
+        {
+            width: 100px;
+            height: 100px;
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <!-- Mounting Component -->
+    <div id="react-container"></div>
+
+    <script type="text/babel">
+        class Box extends React.Component
+        {
+            componentWillMount()
+            {
+                alert('Component is about to mount')
+            }
+
+            componentDidMount()
+            {
+                alert('Component has mounted')
+            }
+
+            render()
+            {
+                return(
+                    <div id="mybox"></div>
+                )
+            }
+        }
+
+        ReactDOM.render(<Box />, document.getElementById('react-container'))
+
+        var getRidOfBox = document.getElementById('mybox')
+        getRidOfBox.onclick = function()
+        {
+            ReactDOM.unmountComponentAtNode(document.getElementById('react-container'))
+            alert('Component has mounted now')
+        }
+    </script>
+</body>
+</html>

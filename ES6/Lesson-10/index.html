@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        //destructuring in ES6
+        // var [first, ,third] = ["Hanoi", "HCM", "Can Tho"];
+
+        // console.log(first, third);
+
+        // var sandwich = {
+        //     title: "Cheese sandwich",
+        //     price: 40,
+        //     description: "Cheese sandwich in HCM",
+        //     ingredients: ["Bread", "Butter", "Cheese"]
+        // };
+
+        // console.log(sandwich.title);
+        // console.log(sandwich.price);
+
+        // var {title, price} = {
+        //     title: "Cheese sandwich",
+        //     price: 40,
+        //     description: "Cheese sandwich in HCM",
+        //     ingredients: ["Bread", "Butter", "Cheese"]
+        // };
+
+        // console.log(title);
+        // console.log(price);
+
+        var vacation = {
+            destination: "Ha Noi",
+            travelers: 2,
+            activity: "Beach",
+            cost: 4000
+        };
+
+        function vacationMarketing({destination, activity})
+        {
+            return `Let go to ${destination} near ${activity}`;
+        }
+
+        console.log(vacationMarketing(vacation));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

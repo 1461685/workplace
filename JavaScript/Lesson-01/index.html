@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- <script>
+            alert("Hello World!");
+        </script> -->
+    </head>
+    <body>
+        <!-- <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Voluptatum voluptatibus corporis quos eligendi dolor repellendus aspernatur earum excepturi voluptas? 
+            Itaque debitis harum quod tenetur illum optio id dignissimos numquam recusandae?    
+        </p>
+
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+        </ul> -->
+        <!-- <h1 id="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1> -->
+
+        <!-- <script src="js/custom.js"></script> -->
+
+        <!-- bad practice Js -->
+        <!-- <h3>Welcome to Javascript</h3>
+
+        <script>
+            // document.write('Hello World!');
+            
+            function myFunc()
+            {
+                document.write("Hello <em>World</em> ");
+                document.write(" <em>Hello</em> World!");
+            }
+
+            window.onload = function()
+            {
+                setTimeout(myFunc, 2000);
+            }
+        </script> -->
+
+        <!-- Js Regular Expression -->
+        <h3>Welcome to Javascript</h3>
+
+        <script>
+            //Create Reg Expression
+            var myRe = /hello/;
+            //or var myRe = new RegExp("hello");
+
+            var myString = "Does this sentence have a hello world in it?";
+
+            if(myRe.test(myString))
+            {
+                alert('Yes');
+            }
+
+            // var myRe = /^hello/; //hello should appear in the beginning
+            // var myRe = /hello$/; //hello should appear in the end
+            // var myRe = /hel+o/; //"helo", "hello", "hellllllo"
+            // var myRe = /hel*o/; //zero or more times
+            // var myRe = /hel?o/; // zero or one
+            // var myRe = /hello|goodbye/; //either|or
+            // var myRe = /he..o/; //. any character
+            // var myRe = /\wello/; // \w alphanumeric or _
+            // var myRe = /\bhello/; // \b word doubly after a new line
+            // var myRe = /[crnld]hello/; //[...] range of characters
+
+        </script>
+    </body>
+</html>

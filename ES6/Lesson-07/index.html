@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        //object literals
+        var sounds = {
+            alarm: function(times)
+            {
+                // console.log(Array(times + 1).join("Beep"));
+                console.log("Beep".repeat(times));
+            },
+            ringTone: function(times)
+            {
+                // console.log(Array(times + 1).join("Song"));
+                console.log("Song".repeat(times));
+            }
+        }
+
+        console.log(sounds.alarm(3));
+        console.log(sounds.ringTone(4));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
