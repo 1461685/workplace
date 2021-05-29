@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        "formulahendry.auto-rename-tag",
+        "formulahendry.auto-close-tag",
+        "hookyqr.beautify",
+        "coenraads.bracket-pair-colorizer",
+        "streetsidesoftware.code-spell-checker",
+        "pranaygp.vscode-css-peek",
+        "dracula-theme.theme-dracula",
+        "dsznajder.es7-react-js-snippets",
+        "ecmel.vscode-html-css",
+        "abusaidm.html-snippets",
+        "zignd.html-css-class-completion",
+        "xabikos.javascriptsnippets",
+        "skyran.js-jsx-snippets",
+        "ritwickdey.liveserver",
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "msjsdiag.vscode-react-native",
+        "shan.code-settings-sync"
+    ]
+}
